@@ -8143,8 +8143,13 @@ textarea.form-control {
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%); }
-    .ftco-footer-social li a:hover {
+      transform: translate(-50%, -50%); 
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease;
+      color: #008000; }
+    .ftco-footer-social li a span:hover {
+      text-decoration: none;
       color: #fff; }
 
 .footer-small-nav > li {
